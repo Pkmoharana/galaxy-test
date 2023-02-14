@@ -43,7 +43,7 @@ tags: [datadog.datadog]
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/Pkmoharana/galaxy-test.git
 
 # The URL to any online docs
 documentation: http://docs.example.com
