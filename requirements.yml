@@ -1,0 +1,4 @@
+---
+collections:
+  - name: /Users/pradyumnakumar.mohar/galaxy/ansible/datadog/datadog-datadog-1.0.0.tar.gz
+    type: file
