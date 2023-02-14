@@ -1,4 +1,13 @@
+
+
+
+#collections:
+ # - name: /Users/pradyumnakumar.mohar/galaxy/ansible/datadog/datadog-datadog-1.0.0.tar.gz
+  #  type: file
 ---
 collections:
-  - name: /Users/pradyumnakumar.mohar/galaxy/ansible/datadog/datadog-datadog-1.0.0.tar.gz
-    type: file
+  - name: datadog.datadog
+    src: git+ssh://git@github.com:Pkmoharana/galaxy-test.git
+    version: 1.0.0
+    scm: git
+    ssh_key_file: /Users/pradyumnakumar.mohar/.ssh/id_rsa
